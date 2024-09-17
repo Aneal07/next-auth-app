@@ -11,8 +11,8 @@ export const connect = async () => {
   }
 
   try {
-    await mongoose.connect(process.env.local.MONGODB_URI, {
-      dbName: "next auth app", // Removed deprecated options
+    await mongoose.connect(process.env.MONGODB_URI, {
+      dbName: "next auth app",
     });
     console.log("MongoDB connected");
     initialized = true;

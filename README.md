@@ -1,4 +1,3 @@
-##on-going project
 
 Next.js Authentication Project using Mongo DB, Mongoose and Clerk
 
